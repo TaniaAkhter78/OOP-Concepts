@@ -10,10 +10,10 @@ public class PaymentGateway {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Choose Payment method \n1. Credit Card \n2. PayPal \n3. UPI");
-        int choice = scanner.nextInt(); // 1
+        int choice = scanner.nextInt();
 
         System.out.println("Enter the payment amount:");
-        double amount = scanner.nextDouble(); // 500.00
+        double amount = scanner.nextDouble();
 
         Payment payment = null;
 
